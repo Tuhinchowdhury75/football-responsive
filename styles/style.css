@@ -1,0 +1,175 @@
+/* font  */
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+  .home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(45, 37, 160, 1);
+    width: 100%;
+    height: 677px;
+  }
+  .banner {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .home-title {
+    width: 45%;
+  }
+  .title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+  }
+  .button {
+    background-color: rgba(224, 44, 109, 1);
+    text-decoration: none;
+    padding: 2px 8px;
+    color: white;
+  }
+  .football-kick img {
+    width: 100%;
+  }
+  .football-kick {
+    width: 45%;
+  }
+  /* player details  */
+  .player{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .player-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 2rem;
+    grid-column-gap: 2rem;
+    width: 80%;
+    margin: 3rem;
+  }
+  .card {
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  .card-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding:10px;
+  }
+  .card-details img {
+    height: 200px;
+  }
+  /* Ronaldo & messi  */
+  
+  .best-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .best-players{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem 0;
+  }
+  .ronaldo,
+  .messi {
+    width: 40%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding:10px;
+  }
+  .ronaldo img {
+  width: 100%;
+  }
+  .messi img {
+   width: 100%;
+  }
+  
+  
+  /* ----footer ----- */
+  .football img {
+    width: 483px;
+    height: 110px;
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+  }
+  .socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .socials img {
+    width: 32px;
+    height: 32px;
+  }
+  .socials li {
+    margin: 0 8px;
+  }
+  .footer-bottom {
+    text-align: center;
+    font-size: 14px;
+  }
+  /* media  */
+  
+  @media only screen and (max-width: 688px) {
+    .home {
+      min-height: 100vh;
+    }
+    .banner {
+      margin: 2rem;
+    width: 100%;
+    flex-direction: column;
+  
+  }
+  .home-title {
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+  .title {
+    font-size: 2rem;
+    font-weight: 500;
+  
+  }
+  
+  .football-kick img {
+    width: 80%;
+  }
+  .football-kick {
+    width: 100%;
+  }
+    .player-section {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .best-players{
+      flex-direction: column;
+    }
+    .ronaldo,
+    .messi {
+      width: 100%;
+      margin: 2rem;
+    }
+    .football img {
+    width: 250px;
+    height: 80px;
+  }
+  }
+  
